@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi color website</title>
+    <style>
+        :root {
+            --backcolor: rgb(196, 181, 181);
+            --textcolor: rgb(0, 0, 0);
+            --back-nav-color: rgb(202, 176, 194);
+            --bordercolor: rgb(128, 128, 128);
+            --hover-color: rgb(0, 0, 0);
+            --hover-text-color: rgb(255, 255, 255);
+        }
+
+        body {
+            background-color: var(--backcolor);
+            color: var(--textcolor);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+        }
+
+        .navbar {
+            background-color: var(--back-nav-color);
+            padding: 10px;
+            border: 1px solid var(--bordercolor);
+
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            padding: 10px;
+            list-style-type: none;
+            border: 0.5px solid var(--bordercolor);
+            margin: 23px;
+            padding: 7 13px;
+            border-radius: 7px;
+
+
+        }
+
+        ul li:hover {
+            background-color: var(--hover-color);
+            color: var(--hover-text-color);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+
+
+
+        .cont {
+            border: 1px solid var(--bordercolor);
+            margin-top: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>phone 13</li>
+            <li>phone 14</li>
+            <li>contact us</li>
+        </ul>
+    </div>
+    <div class="cont">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, laboriosam voluptates, molestias sit mollitia
+        voluptate repellat iusto nostrum vero voluptatum cupiditate labore itaque amet vel sequi illum eaque ab autem
+        nihil adipisci harum optio recusandae iure sapiente? Atque nisi aperiam reiciendis quo! Error, in iusto!
+    </div>
+
+</body>
+
+</html>
